@@ -1,0 +1,204 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* Części główne projektu */
+
+.mainpage {
+	background-color:#F9FF8A;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	margin: 0 auto;
+	position: relative;
+}
+
+.mainpage h1 {
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #16170C;
+	color: #F9FF8A;
+	font-size: 4rem;
+}
+
+.mainpage nav {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+}
+
+.mainpage nav a {
+	color : #3E4023;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.mainpage nav ul {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.mainpage nav ul li a:hover {
+	background-color: #3E4023;
+	color: #F9FF8A;
+}
+
+@media all and (min-width:735px) {
+.flex-container { 
+	display: flex;
+	justify-content: center;
+}
+}
+
+.mainpage .col-lg-6 {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.mainpage h2 {
+	text-transform: uppercase;
+	font-size: 2.6rem;
+	font-weight: bold;
+}
+
+.mainpage p {
+	font-size: 1.5rem;
+}
+
+footer {
+	background-color: #16170C;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+footer p {
+	color: #F9FF8A;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Części menu */
+
+.mainpage .container .row .menu_buttons button {
+	background-color: #af5d26;
+	border: 0;
+	padding: 20px;
+	margin: 10px 5px 20px auto;
+}
+
+.mainpage .container .row .menu_buttons a button {
+
+	text-align: center;
+	color : black;
+	font-size: 1.7rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.mainpage .container .row .menu_buttons a button:hover {
+	background-color: #3E4023;
+	color: #F9FF8A;
+}
+
+.menu_buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.price {
+	background-color: #3E4023;
+	color: #F9FF8A;
+	font-size: 1.7rem;
+	display: block;
+	width: 30%;
+	text-align: center;
+}
+
+.drinks {
+	background-color: #e8b955
+}
+
+.mainpage h3 {
+	margin-top: 20px;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+.mainpage .img-responsive {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.mainpage h4 {
+	font-weight: bolder;
+	font-size: 2.1rem;
+}
+
+ol li {
+	margin: 0 auto;
+}
+
+li {
+	font-size: 1.9rem;
+	font-weight: bold;
+}
+
+/* Kontakt */
+
+.mainpage .col-sm-4 {
+	margin: 0 auto;
+}
+
+/* Parallaxa */	
+
+.parallax-container {
+    min-height: 400px;
+    background: transparent;
+}
+
+/* Scrollowanie */
+
+.scrollToTop{
+	width:100px; 
+	height:40px;
+	padding:10px; 
+	text-align:center; 
+	font-weight: bold;
+	color: white;
+	position:fixed;
+	top:450px;
+	right:15px;
+	display:none;
+	background-color: black;
+	z-index: 1;
+}
+
+.smallpic {
+	max-width: 400px;
+}
+
+.navigation-new {
+	background-color: #16170C;
+	margin: 0 auto;
+	}
+
+.navigation-new li {
+	margin: 0 auto;
+	text-align: center;
+}	
+
+.navigation-new:hover {
+background-color: #230d04;
+}	
+
+.navigation-new li a{
+	color: #ff773d;
+}	
+
+#zestawy p, #wesele p, #stypy p, #obiadowe p, #wigile p, #komunie p{
+	font-size: 1.9rem;
+}
+
